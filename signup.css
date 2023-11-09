@@ -1,0 +1,62 @@
+body {
+    
+  background-color:rgb(131, 248, 232);
+    background-attachment: fixed;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  #form {
+    width: 400px;
+    margin: 20vh auto 0 auto;
+    
+    
+    background: rgb(65, 147, 144);
+    border-radius: 5px;
+    padding: 30px;
+  }
+  h1 {
+    /*Header line*/
+    text-align: center;
+  }
+  #form button {
+    background-color: rgb(19, 94, 82);
+    color: white;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 8px 8px;
+    cursor: pointer;
+    font-size: 15px;
+    width: 100%;
+  }
+  .input-group radio{
+    padding: 10px;
+    margin: 10px 10px;
+    font-size: 15px;
+  }
+  .input-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  .input-group input {
+    border-radius: 5px;
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid green;
+  }
+  .input-group input:focus {
+    outline: 0;
+  }
+  .input-group .error {
+    color: red;
+    font-size: 10px;
+    margin-top: 5px;
+  }
+  .input-group.success input {
+    border-color: rgb(6, 237, 6);
+  }
+  .input-group.error input {
+    border-color: rgb(252, 11, 11);
+  }
+  
